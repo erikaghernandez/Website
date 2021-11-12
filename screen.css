@@ -11,8 +11,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background: #008970;
   color: #b5fff3; /*#99eee0; #a7fcee*/
-  font-family: Times, Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  padding: 18px;
+  font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  line-height: 30px;
+  padding: 40.5px;
+}
+
+h2 {
+  font-size: 40.5px;
+  font-weight: bold;
+  padding-bottom: 20.25px;
+  padding-top: 20.25px;
 }
