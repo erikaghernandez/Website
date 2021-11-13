@@ -41,6 +41,12 @@ h4 {
   padding-top: 20px;
 }
 
+footer{
+  background: #b5fff3;
+  color: #008970;
+  text-align: center;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 440px) {
