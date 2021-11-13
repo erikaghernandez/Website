@@ -61,6 +61,11 @@ h4 {
   font-style: italic;
 }
 
+#navigation ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 footer{
   background: #b5fff3;
   color: #008970;
