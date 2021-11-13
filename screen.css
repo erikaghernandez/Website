@@ -45,11 +45,11 @@ h4 {
   background: #b5fff3;
   color: #008970;
   text-align: center;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 #header h1 {
-  font-size:60.75px;
+  font-size: 60.75px;
   font-weight: bold;
   line-height: 91.125px;
   padding-left: 20px;
@@ -68,11 +68,11 @@ h4 {
 }
 
 #navigation ul li a {
-  color:#008970;
+  color: #008970;
   text-decoration: none;
 }
 
-footer{
+footer {
   background: #b5fff3;
   color: #008970;
   text-align: center;
