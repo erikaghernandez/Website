@@ -48,12 +48,17 @@ h4 {
   text-decoration:none;
 }
 
-#navigation {
-  background: #b5fff3;
-  color: #008970;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+#header h1 {
+  font-size:60.75px;
+  font-weight: bold;
+  line-height: 91.125px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+#header small {
+  font-weight: lighter;
+  font-style: italic;
 }
 
 footer{
