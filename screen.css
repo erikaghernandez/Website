@@ -109,4 +109,11 @@ footer {
     padding-top: 18px;
   }
 
+  #header h1 {
+    font-size: 60.75px;
+    font-weight: bold;
+    line-height: 91.125px;
+    padding-left: 20px;
+    text-align: left;
+  }
 }
