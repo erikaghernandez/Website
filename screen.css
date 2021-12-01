@@ -125,4 +125,10 @@ footer {
     padding-left: 20px;
     text-align: left;
   }
+
+  #navigation li {
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
