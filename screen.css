@@ -63,10 +63,9 @@ h4 {
 }
 
 #navigation ul {
-  display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-content: space-around;
+  align-content: space-between;
 }
 
 #navigation ul li a {
