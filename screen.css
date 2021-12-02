@@ -42,11 +42,11 @@ h4 {
 }
 
 #header {
+  background: #b5fff3;
+  color: #008970;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  background: #b5fff3;
-  color: #008970;
   text-align: center;
   text-decoration: none;
 }
@@ -58,26 +58,27 @@ h4 {
 }
 
 #header small {
-  font-weight: lighter;
   font-style: italic;
+  font-weight: lighter;
 }
 
 #navigation ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
+  padding: 0;
 }
 
 #navigation li {
   float: left;
 }
- #navigation li a {
+
+#navigation li a {
+  color: #008970;
   display: block;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: #008970;
+  text-align: center;
 }
 
 #navigation li a:hover {
@@ -137,5 +138,5 @@ footer {
     padding-left: 20px;
     text-align: left;
   }
-  
+
 }
