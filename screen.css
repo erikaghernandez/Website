@@ -63,14 +63,26 @@ h4 {
 }
 
 #navigation ul {
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-#navigation ul li a {
-  color: #008970;
+#navigation li {
+  float: left;
+}
+ #navigation li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  color: #008970;
+}
+
+#navigation li a:hover {
+  background-color:#008970;
+  color: #b5fff3;
 }
 
 footer {
@@ -125,10 +137,5 @@ footer {
     padding-left: 20px;
     text-align: left;
   }
-
-  #navigation li {
-    display: inline-block;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+  
 }
