@@ -41,6 +41,14 @@ h4 {
   padding-top: 20px;
 }
 
+footer {
+  background: #b5fff3;
+  color: #008970;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
 #header {
   align-items: center;
   align-content: space-around;
@@ -91,11 +99,53 @@ h4 {
   text-transform: uppercase;
 }
 
-footer {
-  background: #b5fff3;
-  color: #008970;
+.h-card {
   text-align: center;
 }
+
+.p-tel,
+.u-email,
+.p-locality,
+.p-region {
+  background: #b5fff3;
+  color: #008970;
+  display: block;
+  text-align: center;
+
+}
+
+.p-tel a,
+.u-email a,
+.p-locality a,
+.p-region a {
+  text-decoration: none;
+}
+
+#education h3 {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.professional-experience h3 {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.resume-experience-address {
+  padding: 20px;
+  padding-left: 0px;
+}
+
+#resume-skills h3 {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+
+
 
 /* MEDIA QUERIES */
 
@@ -153,5 +203,27 @@ footer {
     justify-content: flex-start;
     visibility: visible;
   }
+
+  .professional-experience h3 {
+    font-size: 40.5px;
+    font-weight: bold;
+    padding-bottom: 20.25px;
+    padding-top: 20.25px;
+  }
+
+  #education h3 {
+    font-size: 40.5px;
+    font-weight: bold;
+    padding-bottom: 20.25px;
+    padding-top: 20.25px;
+  }
+
+  #resume-skills h3 {
+    font-size: 40.5px;
+    font-weight: bold;
+    padding-bottom: 20.25px;
+    padding-top: 20.25px;
+  }
+
 
 }
