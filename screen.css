@@ -34,11 +34,7 @@ h3 {
 }
 
 h4 {
-  font-style: italic;
   font-weight: lighter;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
 }
 
 footer {
@@ -144,7 +140,33 @@ footer {
   text-transform: capitalize;
 }
 
+.resume-position-title h4 {
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 20px;
+}
 
+.resume-experience-address li{
+  list-style-type: none;
+}
+
+.resume-experience-address li::before{
+  content: "\00BB"
+}
+
+.resume-experience-details li{
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+#resume-technical-skills,
+#resume-programing-lang li {
+  font-weight: bold;
+  text-decoration: overline;
+
+}
 
 
 /* MEDIA QUERIES */
@@ -225,5 +247,9 @@ footer {
     padding-top: 20.25px;
   }
 
+  .resume-position-title {
+    font-size: 27px;
+    font-style: normal;
+  }
 
 }
