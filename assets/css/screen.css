@@ -132,12 +132,22 @@ footer {
   float: left;
 }
 
+#podcasts-nino a {
+  color: #b5fff3;
+  text-decoration: none;
+}
+
 #navigation li a {
   color: #008970;
   display: block;
   padding: 14px 16px;
-  text-decoration: none;
   text-align: center;
+  text-decoration: none;
+}
+
+#podcast-sysk ol li a {
+  color: #b5fff3;
+  text-decoration: none;
 }
 
 #navigation li a:hover {
@@ -207,28 +217,16 @@ footer {
 }
 
 #podcast-sysk ol li {
+  color: #b5fff3;
   list-style: circle;
   list-style-position: inside;
   padding-bottom: 20px;
-  color: #b5fff3;
-}
-
-#podcast-sysk ol li a {
-  color: #b5fff3;
-  text-decoration: none;
 }
 
 #podcasts-nino ul {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-#podcasts-nino a {
-  color: #b5fff3;
-  text-decoration: none;
-}
-
-
 
 /* MEDIA QUERIES */
 
