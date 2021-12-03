@@ -45,6 +45,60 @@ footer {
   text-align: center;
 }
 
+.h-card {
+  text-align: center;
+}
+
+.p-tel,
+.u-email,
+.p-locality,
+.p-region {
+  background: #b5fff3;
+  color: #008970;
+  display: block;
+  text-align: center;
+
+}
+
+.p-tel a,
+.u-email a,
+.p-locality a,
+.p-region a {
+  text-decoration: none;
+}
+
+.professional-experience h3 {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.resume-experience-address {
+  padding: 20px;
+  padding-left: 0;
+}
+
+.resume-position-title h4 {
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 0;
+  padding-top: 20px;
+}
+
+.resume-experience-address li {
+  list-style-type: none;
+}
+
+.resume-experience-address li::before {
+  content: "\00BB";
+}
+
+.resume-experience-details li {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
 #header {
   align-items: center;
   align-content: space-around;
@@ -87,34 +141,12 @@ footer {
 }
 
 #navigation li a:hover {
-  background-color:#008970;
+  background-color: #008970;
   color: #b5fff3;
   font-style: oblique;
   font-weight: bolder;
   text-decoration: underline;
   text-transform: uppercase;
-}
-
-.h-card {
-  text-align: center;
-}
-
-.p-tel,
-.u-email,
-.p-locality,
-.p-region {
-  background: #b5fff3;
-  color: #008970;
-  display: block;
-  text-align: center;
-
-}
-
-.p-tel a,
-.u-email a,
-.p-locality a,
-.p-region a {
-  text-decoration: none;
 }
 
 #education h3 {
@@ -123,51 +155,28 @@ footer {
   text-transform: capitalize;
 }
 
-.professional-experience h3 {
-  font-weight: bolder;
-  text-decoration: underline;
-  text-transform: capitalize;
-}
-
-.resume-experience-address {
-  padding: 20px;
-  padding-left: 0px;
-}
-
 #resume-skills h3 {
   font-weight: bolder;
   text-decoration: underline;
   text-transform: capitalize;
 }
 
-.resume-position-title h4 {
-  font-style: normal;
+#technical-skills h4 {
   font-weight: bold;
-  text-align: left;
-  padding-left: 0px;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.resume-experience-address li{
-  list-style-type: none;
-}
-
-.resume-experience-address li::before{
-  content: "\00BB"
-}
-
-.resume-experience-details li{
+#technical-skills li {
+  list-style: circle;
   list-style-position: inside;
-  list-style-type: circle;
+  padding-bottom: 20px;
 }
 
-#resume-technical-skills,
-#resume-programing-lang li {
-  font-weight: bold;
-  text-decoration: overline;
-
+#technical-skills h3 {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
-
 
 /* MEDIA QUERIES */
 
@@ -195,11 +204,22 @@ footer {
   }
 
   h4 {
-    font-style: italic;
     font-weight: lighter;
     padding-bottom: 18px;
     padding-left: 18px;
     padding-top: 18px;
+  }
+
+  .resume-position-title {
+    font-size: 27px;
+    font-style: normal;
+  }
+
+  .professional-experience h3 {
+    font-size: 40.5px;
+    font-weight: bold;
+    padding-bottom: 20.25px;
+    padding-top: 20.25px;
   }
 
   #header {
@@ -226,13 +246,6 @@ footer {
     visibility: visible;
   }
 
-  .professional-experience h3 {
-    font-size: 40.5px;
-    font-weight: bold;
-    padding-bottom: 20.25px;
-    padding-top: 20.25px;
-  }
-
   #education h3 {
     font-size: 40.5px;
     font-weight: bold;
@@ -247,9 +260,11 @@ footer {
     padding-top: 20.25px;
   }
 
-  .resume-position-title {
-    font-size: 27px;
-    font-style: normal;
+  #technical-skills h3 {
+    font-size: 40.5px;
+    font-weight: bold;
+    padding-bottom: 20.25px;
+    padding-top: 20.25px;
   }
 
 }
