@@ -345,10 +345,11 @@ footer {
   }
 
   figcaption {
-    position: absolute;
-    width 100%
+    background: rgba(20,20,20,0.3);
     bottom: 0px;
     color: #EEE;
-    background: rgba(20,20,20,0.3)
+    position: relative;
+    text-align: center;
+    width: 100%;
   }
 }
