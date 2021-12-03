@@ -145,7 +145,7 @@ footer {
 #navigation li a {
   color: #008970;
   display: block;
-  padding: 14px 16px;
+  padding: 0.77777777777em 0.88888888888em; /* 14/18 = 0.77777777777 16/18 = 0.88888888888 */
   text-align: center;
   text-decoration: none;
 }
@@ -240,41 +240,41 @@ footer {
     background: #008970;
     color: #b5fff3; /*#99eee0; #a7fcee*/
     font-family: "Times New Roman", Arial, Helvetica, sans-serif;
-    font-size: 27px;
-    line-height: 30px;
-    padding: 40.5px;
+    font-size: 1.6875em; /*27/16 = 1.6875 */
+    line-height: 1.11111111111em; /*30/27 = 1.11111111111 */
+    padding: 1.5em; /*40.5/27 = 1.5 */
   }
 
   h2 {
-    font-size: 40.5px;
+    font-size: 2.53125em; /*40.5/16 = 2.53125 */
     font-weight: bold;
-    padding-bottom: 20.25px;
-    padding-top: 20.25px;
+    padding-bottom: 0.5em; /*20.25/40.5 = 0.5 */
+    padding-top: 0.5em; /* 20.25/40.5 = 0.5*/
   }
 
   h3 {
     font-weight: bold;
-    padding-bottom: 20.25px;
-    padding-top: 20.25px;
+    padding-bottom: 1.125em; /*20.25 /18 = 1.125 */
+    padding-top: 1.125em; /* 20.25 /18 = 1.125*/
   }
 
   h4 {
     font-weight: lighter;
-    padding-bottom: 18px;
-    padding-left: 18px;
-    padding-top: 18px;
+    padding-bottom: 1em; /*18/18 = 1 */
+    padding-left: 1em; /* 18/18 = 1*/
+    padding-top: 1em; /* 18/18 = 1*/
   }
 
   .resume-position-title {
-    font-size: 27px;
+    font-size: 1.6875em; /*27/16 = 1.6875 */
     font-style: normal;
   }
 
   .professional-experience h3 {
-    font-size: 40.5px;
+    font-size: 2.53125em; /* 40.5/16 = 2.53125*/
     font-weight: bold;
-    padding-bottom: 20.25px;
-    padding-top: 20.25px;
+    padding-bottom: 0.5em; /*20.25 /40.5 = 0.5 */
+    padding-top: 0.5em; /* ^0.5*/
   }
 
   #header {
@@ -284,10 +284,10 @@ footer {
   }
 
   #header h1 {
-    font-size: 60.75px;
+    font-size: 3.796875em; /* 60.75/16 3.796875*/
     font-weight: bold;
-    line-height: 91.125px;
-    padding-left: 20px;
+    line-height: 1.5em; /*91.125/60.75 = 1.5 */
+    padding-left: 0.32921811em; /* 20/ 60.75 = 0.32921811*/
     text-align: left;
   }
 
@@ -302,31 +302,31 @@ footer {
   }
 
   #education h3 {
-    font-size: 40.5px;
+    font-size: 2.53125em; /* 40.5/16 = 2.53125*/
     font-weight: bold;
-    padding-bottom: 20.25px;
-    padding-top: 20.25px;
+    padding-bottom: 0.5em; /*20.25 /40.5 = 0.5 */
+    padding-top: 0.5em; /*20.25 /40.5 = 0.5 */
   }
 
   #resume-skills h3 {
-    font-size: 40.5px;
+    font-size: 2.53125em; /* 40.5/16 = 2.53125*/
     font-weight: bold;
-    padding-bottom: 20.25px;
-    padding-top: 20.25px;
+    padding-bottom: 0.5em; /*20.25 /40.5 = 0.5 */
+    padding-top: 0.5em; /*20.25 /40.5 = 0.5 */
   }
 
   #technical-skills h3 {
-    font-size: 40.5px;
+    font-size: 2.53125em; /* 40.5/16 = 2.53125*/
     font-weight: bold;
-    padding-bottom: 20.25px;
-    padding-top: 20.25px;
+    padding-bottom: 0.5em; /*20.25 /40.5 = 0.5 */
+    padding-top: 0.5em; /*20.25 /40.5 = 0.5 */
   }
 
   #podcast h3 {
-    font-size: 40.5px;
+    font-size: 2.53125em; /* 40.5/16 = 2.53125*/
     font-weight: bold;
-    padding-bottom: 20.25px;
-    padding-top: 20.25px;
+    padding-bottom: 0.5em; /*20.25 /40.5 = 0.5 */
+    padding-top: 0.5em; /*20.25 /40.5 = 0.5 */
   }
 
 
@@ -347,7 +347,7 @@ footer {
 
   figcaption {
     background: rgba(20,20,20,0.3);
-    bottom: 0px;
+    bottom: 0px; /* */
     color: #EEE;
     position: relative;
     text-align: center;
