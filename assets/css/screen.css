@@ -16,21 +16,21 @@ html {
   background: #008970;
   color: #b5fff3; /*#99eee0; #a7fcee*/
   font-family: "Times New Roman", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  padding: 24px;
+  font-size: 1.125em; /* 18/16 = 1.125*/
+  line-height: 1.33333333333em;  /* 24/18 = 1.33333333333*/
+  padding: 1.33333333333em; /* 24/18 = 1.33333333333*/
 }
 
 h2 {
   font-weight: bold;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 1.11111111111em; /* 20/18 = 1.11111111111*/
+  padding-top: 1.11111111111em; /* 20/18 = 1.11111111111*/
 }
 
 h3 {
   font-weight: bold;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 1.11111111111em; /* 20/18 = 1.11111111111*/
+  padding-top: 1.11111111111em; /* 20/18 = 1.11111111111*/
 }
 
 h4 {
@@ -45,8 +45,8 @@ figure {
 footer {
   background: #b5fff3;
   color: #008970;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 1.11111111111em; /* 20/18 = 1.11111111111*/
+  padding-top: 1.11111111111em; /* 20/18 = 1.11111111111*/
   text-align: center;
 }
 
@@ -79,7 +79,7 @@ footer {
 }
 
 .resume-experience-address {
-  padding: 20px;
+  padding: 1.11111111111em; /* 20/18 = 1.11111111111*/
   padding-left: 0;
 }
 
@@ -88,7 +88,7 @@ footer {
   font-weight: bold;
   text-align: left;
   padding-left: 0;
-  padding-top: 20px;
+  padding-top: 1.11111111111em; /* 20/18 = 1.11111111111*/
 }
 
 .resume-experience-address li {
@@ -117,8 +117,8 @@ footer {
 
 #header h1 {
   font-weight: bold;
-  padding-top: 20px;
-  padding-left: 20px;
+  padding-top: 1.11111111111em; /* 20/18 = 1.11111111111*/
+  padding-left: 1.11111111111em; /* 20/18 = 1.11111111111*/
   text-align: left;
 }
 
@@ -178,13 +178,13 @@ footer {
 
 #technical-skills h4 {
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-bottom: 1.11111111111em; /* 20/18 = 1.11111111111*/
 }
 
 #technical-skills li {
   list-style: circle;
   list-style-position: inside;
-  padding-bottom: 20px;
+  padding-bottom: 1.11111111111em; /* 20/18 = 1.11111111111*/
 }
 
 #technical-skills h3 {
@@ -225,17 +225,17 @@ footer {
   color: #b5fff3;
   list-style: circle;
   list-style-position: inside;
-  padding-bottom: 20px;
+  padding-bottom: 1.11111111111em; /* 20/18 = 1.11111111111*/
 }
 
 #podcasts-nino ul {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.11111111111em; /* 20/18 = 1.11111111111*/
+  padding-bottom: 1.11111111111em; /* 20/18 = 1.11111111111*/
 }
 
 /* MEDIA QUERIES */
-
-@media screen and (min-width: 440px) {
+/*440/16 = 27.5*/
+@media screen and (min-width: 27.5em) {
   html {
     background: #008970;
     color: #b5fff3; /*#99eee0; #a7fcee*/
@@ -332,7 +332,8 @@ footer {
 
 }
 
-@media screen and (min-width: 1512px) {
+/* 1512/16 = 94.5 */
+@media screen and (min-width: 94.5em) {
   img {
     display: block;
     width: 100%;
