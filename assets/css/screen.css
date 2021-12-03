@@ -37,6 +37,11 @@ h4 {
   font-weight: lighter;
 }
 
+figure {
+  display: none;
+  visibility: collapse;
+}
+
 footer {
   background: #b5fff3;
   color: #008970;
@@ -325,4 +330,25 @@ footer {
   }
 
 
+}
+
+@media screen and (min-width: 1512px) {
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  figure {
+    display: contents;
+    visibility: visible;
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    width 100%
+    bottom: 0px;
+    color: #EEE;
+    background: rgba(20,20,20,0.3)
+  }
 }
