@@ -148,6 +148,7 @@ footer {
   padding: 0.77777777777em 0.88888888888em; /* 14/18 = 0.77777777777 16/18 = 0.88888888888 */
   text-align: center;
   text-decoration: none;
+  transition: all 0.5s ease-in;
 }
 
 #podcast-sysk ol li a {
