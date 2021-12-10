@@ -163,6 +163,8 @@ footer {
   font-weight: bolder;
   text-decoration: underline;
   text-transform: uppercase;
+  /*make it spin maybe?*/
+  transform: rotate(360deg);
 }
 
 #education h3 {
